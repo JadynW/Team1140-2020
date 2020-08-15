@@ -30,6 +30,7 @@ import { HomeComponent } from './home/home.component';
 import { GovernmentComponent } from './government/government.component';
 import { EmployerComponent } from './employer/employer.component';
 import { EmployeeComponent } from './employee/employee.component';
+import { AgricultureComponent } from './agriculture/agriculture.component';
 
 
 @NgModule({
@@ -41,6 +42,7 @@ import { EmployeeComponent } from './employee/employee.component';
     GovernmentComponent,
     EmployerComponent,
     EmployeeComponent,
+    AgricultureComponent,
   ],
   imports: [
     AppRoutingModule,
